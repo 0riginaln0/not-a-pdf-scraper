@@ -12,7 +12,7 @@ def countdown(seconds):
 
 def press_right_arrow_and_take_screenshot(
     iterations: int, screenshot_region: tuple[int, int, int, int]
-):
+) -> list[str]:
     names = []
     for i in range(iterations):
         print(f"hello{i}")
